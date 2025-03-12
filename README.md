@@ -62,7 +62,7 @@ Data Source: https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks/
 
 - Monthly trend of attacks by Protocols: ICMP attacks show larger fluctuations compared to TCP and UDP. The attack count in December is at its lowest. The number of attacks across ICMP, TCP, and UDP protocols increases sharply from February to March and remains high until August with a significant peak in March. Security teams should prioritize monitoring during these months.
 
-<img width="560" alt="image" src="https://github.com/user-attachments/assets/b66d122d-1cb2-4512-9a6b-e13eeccf48bc" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/b66d122d-1cb2-4512-9a6b-e13eeccf48bc" />
 
 - Monthly attack trends by Packet Type: Both Control and Data packet types experience higher attack rates from March to August. Control packet attacks rise significantly in March, peaking at ~1900 attacks in July-August. Compared to Data packets, Control packets have more volatility, indicating more frequent security events affecting network control mechanisms. Both packet types show a sharp decline starting from September, with the lowest levels in November.
 
@@ -70,9 +70,18 @@ Data Source: https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks/
 
 - Total attacks by browsers: The number of cybersecurity attacks targeting Mozilla is significantly higher than Opera. This suggests higher user adoption or more vulnerabilities in Mozilla that attackers exploit. The number of cybersecurity attacks remained relatively stable from 2020 to 2022, with only minor fluctuations. However, in 2023, there was a sharp decline in attacks, suggesting improved security measures, lower user activity, or changes in attacker behavior.
 
-<img width="542" alt="image" src="https://github.com/user-attachments/assets/af6e76ad-66dc-44f3-a636-945705abb941" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/af6e76ad-66dc-44f3-a636-945705abb941" />
 
 The attack trend for Mozilla peaks around March and remains high until August, after which it declines sharply from September to December. Opera sees relatively stable but lower attack frequencies, with a gradual decline from September onward. 
 
-<img width="523" alt="image" src="https://github.com/user-attachments/assets/685e87ce-b668-4b51-90a8-94f79a86bfa1" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/685e87ce-b668-4b51-90a8-94f79a86bfa1" />
+
+- Attacks by Network Segment: All three network segments (A, B, and C) experienced the highest attack rates between March and August.
+Segment C had the highest spike in March (~1,250 attacks). Segment B showed another peak in June and August, indicating potential vulnerabilities in those months.
+
+<img width="574" alt="image" src="https://github.com/user-attachments/assets/0d3b9997-33cb-4087-87f6-706d1a76b5b2" />
+
+- Cybersecurity attacks by Device types: The majority of cybersecurity attacks are directed at Windows devices with 49%, Linux (22.1%) and MacOs (14.5%) are also affected. Supprisingly, Attack rates on mobile devices like Android, iPhone, iPad, and iPod are relatively low. Therefore, organizations should prioritize security for Windows devices, as they are the most frequently attacked; and enhance endpoint protection for Linux and macOS to counter growing threats.
+  
+<img width="397" alt="image" src="https://github.com/user-attachments/assets/283e8c46-1cc9-4312-9ac3-452106d05a82" />
 
