@@ -40,9 +40,12 @@ Data Source: https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks/
 - Overall, the number of cybersecurity attacks remained consistently high from 2020 to 2022, all surpassing 10,000 attacks per year. In 2023, the total number of attacks dropped to 8139, a significant decrease compared to previous years.
 - For the monthly trend, March (3,678), May (3,595), June (3,609), July (3,623), and August (3,615) recorded the highest number of cybersecurity attacks. Meanwhile, November (2,703) and December (2,675) have the lowest attack counts, suggesting a slowdown in attack activity. => Organizations should increase security audits and system patching before these high-risk months and strengthen cybersecurity measures during these months.
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/1a53d47a-5dd9-47fb-8db4-428a21679692" />
-  
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/86d512cb-9bb0-42d2-8365-e491cf7f3635" />
+
+- Anomaly scores are used to quantify the likelihood that an event is unusual or suspicious compared to normal behavior. There is no clear correlation between anomaly scores and attacks becacause some months, such as March and November, show high anomaly scores but fewer attacks. Both anomaly scores and attacks peaked in March, possibly indicating a high-threat period with more detected incidents.
+
+<img width="614" alt="image" src="https://github.com/user-attachments/assets/2bc59423-286c-4d89-aee1-cb7120e67768" />
+
 
 - Cybersecurity Attacks by attack types: Overall, The number of attacks for DDoS, Malware, and Intrusion are nearly equal, each exceeding 13,000 occurrences, indicating that all three attack types pose a significant cybersecurity threat. The number of DDoS, Intrusion, and Malware attacks remained relatively stable from 2020 to 2022, fluctuating around 3,500 to 3,600 attacks per year, with a slight increase in 2022. However, they all dropped sharply in 2023
 
@@ -79,9 +82,17 @@ The attack trend for Mozilla peaks around March and remains high until August, a
 - Attacks by Network Segment: All three network segments (A, B, and C) experienced the highest attack rates between March and August.
 Segment C had the highest spike in March (~1,250 attacks). Segment B showed another peak in June and August, indicating potential vulnerabilities in those months.
 
-<img width="574" alt="image" src="https://github.com/user-attachments/assets/0d3b9997-33cb-4087-87f6-706d1a76b5b2" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/0d3b9997-33cb-4087-87f6-706d1a76b5b2" />
 
 - Cybersecurity attacks by Device types: The majority of cybersecurity attacks are directed at Windows devices with 49%, Linux (22.1%) and MacOs (14.5%) are also affected. Supprisingly, Attack rates on mobile devices like Android, iPhone, iPad, and iPod are relatively low. Therefore, organizations should prioritize security for Windows devices, as they are the most frequently attacked; and enhance endpoint protection for Linux and macOS to counter growing threats.
   
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/283e8c46-1cc9-4312-9ac3-452106d05a82" />
+
+- Monthly trend of cybersecurity attacks by Traffic type: The number of attacks across DNS, FTP, and HTTP traffic types increased significantly in March, May, June, and August. March saw the sharpest rise, particularly in FTP traffic, suggesting that attackers were more active using this protocol. FTP traffic had the highest attack spike in March, while HTTP attacks peaked in June. DNS traffic maintained a steadier trend but dropped significantly towards the year-end. Therefore, Organizations should trengthen Security in Peak Months, like in March, May, June, and August to mitigate attack risks; and should monitor FTP Traffic and apply additional intrusion detection. 
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/e2680d4c-a5aa-4695-8149-16b1ba5a1235" />
+
+- Monthly attack by severity level: March, June, and July have the highest number of attacks across all severity levels. March shows the sharpest peak in high-severity attacks. April to September maintains relatively stable attack levels across all severity categories. Meanwhile, Medium-severity attacks have a steady increase, peaking in August. Attacks drop drastically from Quater 4. Therefore, Organizations should ncrease threat monitoring in Q2 and Q3, especially for high-severity attacks. Especially, focus on March and August trends, as they consistently show spikes across different severity levels.
+  
+<img width="553" alt="image" src="https://github.com/user-attachments/assets/231f2a53-92c0-4c14-b8e7-f0e3accb9c32" />
 
