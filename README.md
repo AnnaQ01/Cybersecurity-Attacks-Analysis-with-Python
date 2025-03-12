@@ -37,4 +37,14 @@ The dataset consists of 25 varied metrics and 40,000 records:
 - Log Source: The origin of the log entry
 Data Source: https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks/data
 # Analysing results: 
+- Overall, the number of cybersecurity attacks remained consistently high from 2020 to 2022, all surpassing 10,000 attacks per year. In 2023, the total number of attacks dropped to 8139, a significant decrease compared to previous years.
+- For the monthly trend, March (3,678), May (3,595), June (3,609), July (3,623), and August (3,615) recorded the highest number of cybersecurity attacks. Meanwhile, November (2,703) and December (2,675) have the lowest attack counts, suggesting a slowdown in attack activity. => Organizations should increase security audits and system patching before these high-risk months and strengthen cybersecurity measures during these months.
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/1a53d47a-5dd9-47fb-8db4-428a21679692" />
+  
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/86d512cb-9bb0-42d2-8365-e491cf7f3635" />
+
+- Cybersecurity Attacks by attack types: Overall, The number of attacks for DDoS, Malware, and Intrusion are nearly equal, each exceeding 13,000 occurrences, indicating that all three attack types pose a significant cybersecurity threat. The number of DDoS, Intrusion, and Malware attacks remained relatively stable from 2020 to 2022, fluctuating around 3,500 to 3,600 attacks per year, with a slight increase in 2022. However, they all dropped sharply in 2023
+
+ <img width="600" alt="image" src="https://github.com/user-attachments/assets/ebf8cfdc-35cb-4dd2-bb7b-ac113ad93881" />
 
