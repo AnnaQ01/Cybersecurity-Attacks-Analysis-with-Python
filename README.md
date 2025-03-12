@@ -47,4 +47,32 @@ Data Source: https://www.kaggle.com/datasets/teamincribo/cyber-security-attacks/
 - Cybersecurity Attacks by attack types: Overall, The number of attacks for DDoS, Malware, and Intrusion are nearly equal, each exceeding 13,000 occurrences, indicating that all three attack types pose a significant cybersecurity threat. The number of DDoS, Intrusion, and Malware attacks remained relatively stable from 2020 to 2022, fluctuating around 3,500 to 3,600 attacks per year, with a slight increase in 2022. However, they all dropped sharply in 2023
 
  <img width="600" alt="image" src="https://github.com/user-attachments/assets/ebf8cfdc-35cb-4dd2-bb7b-ac113ad93881" />
+ 
+- Monthly Trend of Cybersecurity Attacks by Type: March, May, June, and July show higher attack volumes across all attack types. From September onwards, all attack types show a sharp decline. In details, The DDoS attack type saw a sharp increase in March, while Intrusion attacks were recorded the highest number in June. In addition, Malware attacks remain relatively steady, they follow a slight increase mid-year before declining in the last quarter. Therefore, Organiztions should strengthen defenses during peak months (March, May, June, July), especially focus on monitoring and blocking DDoS attacks in March and Intrusion attacks in mid-year.
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/f689c890-c506-4026-9298-eb2e4a371c4d" />
+
+- Weekly Trend of Cybersecurity attacks by Type: The highest recorded number of DDoS attacks occurs on Tuesday, followed by Thursday, suggesting that attackers may be exploiting network vulnerabilities during the start and mid-week when network traffic is high. Malware Attacks Show an increase on mondays and fridays while the Intrusion attacks show a relatively stable trend throughout the week, with a slight increase towards the weekend (Saturday and Sunday). Therefore, Organizations should strengthen network defenses on Tuesdays and Thursdays, implement advanced DDoS protection measures at the beginning and mid-week; Increase intrusion detection monitoring during peak hours on weekends and enhance Malware protection. 
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/7d072416-51f5-41c4-8e5e-ce514fe5682b" />
+
+- The total attacks by Protocols: The number of attacks across ICMP, TCP, and UDP protocols remained relatively stable from 2020 to 2022, fluctuating around 3500-3600 attacks per year. In 2023, there was a sharp decline in attacks for all three protocols. The ICMP protocol had slightly higher attacks compared to TCP and UDP, especially in 2020 and 2022.  Advanced IDS/IPS systems and firewall optimizations should be applied to prevent more attacks and to better filter of malicious traffic.
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/ef15748f-8017-45e6-8af4-fb34b9cb8504" />
+
+- Monthly trend of attacks by Protocols: ICMP attacks show larger fluctuations compared to TCP and UDP. The attack count in December is at its lowest. The number of attacks across ICMP, TCP, and UDP protocols increases sharply from February to March and remains high until August with a significant peak in March. Security teams should prioritize monitoring during these months.
+
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/b66d122d-1cb2-4512-9a6b-e13eeccf48bc" />
+
+- Monthly attack trends by Packet Type: Both Control and Data packet types experience higher attack rates from March to August. Control packet attacks rise significantly in March, peaking at ~1900 attacks in July-August. Compared to Data packets, Control packets have more volatility, indicating more frequent security events affecting network control mechanisms. Both packet types show a sharp decline starting from September, with the lowest levels in November.
+
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/e3360989-7abe-4dd3-919d-be0d907e667f" />
+
+- Total attacks by browsers: The number of cybersecurity attacks targeting Mozilla is significantly higher than Opera. This suggests higher user adoption or more vulnerabilities in Mozilla that attackers exploit. The number of cybersecurity attacks remained relatively stable from 2020 to 2022, with only minor fluctuations. However, in 2023, there was a sharp decline in attacks, suggesting improved security measures, lower user activity, or changes in attacker behavior.
+
+<img width="542" alt="image" src="https://github.com/user-attachments/assets/af6e76ad-66dc-44f3-a636-945705abb941" />
+
+The attack trend for Mozilla peaks around March and remains high until August, after which it declines sharply from September to December. Opera sees relatively stable but lower attack frequencies, with a gradual decline from September onward. 
+
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/685e87ce-b668-4b51-90a8-94f79a86bfa1" />
 
