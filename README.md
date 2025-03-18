@@ -1,4 +1,4 @@
-# Cybersecurity-Attacks-Analysis-with-Python
+# Cybersecurity Attacks Analysis with Python
 ## Introduction
 This project focuses on analyzing cybersecurity attack patterns and trends using Python to explore attack trends, detect anomalies, and derive data-driven insights for improving cybersecurity defenses.
 
@@ -100,7 +100,7 @@ Segment C had the highest spike in March (~1,250 attacks). Segment B showed anot
   
 <img width="553" alt="image" src="https://github.com/user-attachments/assets/231f2a53-92c0-4c14-b8e7-f0e3accb9c32" />
 
-# Conclusions: 
+## Conclusion: 
 - There is no clear correlation between anomaly scores and the number of attacks.
 - Throughout the year, March, May, June, July, and August recorded the highest number of attacks while November and December had the fewest attacks. Therefore, Organizations should implement proactive security audits, patch vulnerabilities, and reinforce cybersecurity defenses before high-risk months. Especially, Focus on DDoS attacks in March and and Intrusion attacks in mid-year. 
 - For weekly activities, DDoS attacks peak on Tuesdays and Thursdays, Malware attacks increase on Mondays and Fridays, Intrusion attacks remain stable but slightly increase over the weekend (Saturday and Sunday). Therefore, Organizations should implement advanced DDoS protection early in the week and increase intrusion monitoring on weekends.
